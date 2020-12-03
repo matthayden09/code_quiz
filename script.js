@@ -1,11 +1,51 @@
 // GIVEN I am taking a code quiz
-// WHEN I click the start button
-// THEN a timer starts and I am presented with a question
-// WHEN I answer a question
-// THEN I am presented with another question
-// WHEN I answer a question incorrectly
-// THEN time is subtracted from the clock
-// WHEN all questions are answered or the timer reaches 0
-// THEN the game is over
-// WHEN the game is over
-// THEN I can save my initials and score
+(function (){
+
+    // variables
+    var questions = [
+        {
+            "title": "Question 1",
+            "choices": {
+                "a": "Answer 1",
+                "b": "Answer 2",
+                "c": "Answer 3",
+            },
+            "answer": "a"
+        },
+        {
+            "title": "Question 2",
+            "choices": {
+                "a": "Answer 1",
+                "b": "Answer 2",
+                "c": "Answer 3",
+            },
+            "answer": "b"
+        },
+        {
+            "title": "Question 3",
+            "choices": {
+                "a": "Answer 1",
+                "b": "Answer 2",
+                "c": "Answer 3",
+            },
+            "answer": "c"
+        }
+    ];
+    var answers = [];
+    var startButton = document.getElementById('start');
+    var nextButton = document.getElementById('next');
+    var submitButton = document.getElementById('submit');
+
+    // event listeners
+    startButton.addEventListener('click');
+    nextButton.addEventListener('click');
+    submitButton.addEventListener('click');
+
+    // timer
+    
+
+   
+
+    
+
+})();
